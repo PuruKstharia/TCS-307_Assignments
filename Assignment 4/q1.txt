@@ -1,0 +1,11 @@
+Ques.1-Discuss the ways in which inheritance promotes software
+ reuse, saves time during program developmentand helps prevent
+ errors.
+ Ans.-Inheritance allows the developers to create a subclass that
+ can reuse code that is declared in asuperclass.being able to avoid
+ the duplication of a common function of several classes by
+ building off of a class inheritance can save time. Also by placing a
+ common function in a single superclass can helpprevent duplicate
+ errors in code.
+Avoiding the duplication of common functionality between several classes by building a class inheritance hierarchy can save developers a considerable amount of time. Similarly, placing common functionality in a single superclass, rather than duplicating the code in multiple unrelated classes, helps prevent the same errors from appearing in multiple source-code files. If errors occur in the common functionality of the superclass, the software developer needs to modify only the superclass’s.
+Example-This hierarchy contains many is-a (inheritance) relationships. An UndergraduateStudent is a Student. A GraduateStudent is a Student, too. Each of the classes Freshman, Sophomore, Junior and Senior is an UndergraduateStudent and is a Student. Each of the classes DoctoralStudent and MastersStudent is a GraduateStudent and is a Student. Note that there could be many more classes. For example, GraduateStudent could have subclasses like LawStudent, BusinessStudent, MedicalStudent, etc.
